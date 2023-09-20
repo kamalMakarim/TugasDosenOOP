@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Food
+comment1.params=name\ price\ amount\ expDate
+comment1.target=Food(java.lang.String,\ double,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getExpDate()
+comment3.params=expDate
+comment3.target=void\ setExpDate(java.lang.String)
+comment4.params=
+comment4.target=void\ print()
+numComments=5

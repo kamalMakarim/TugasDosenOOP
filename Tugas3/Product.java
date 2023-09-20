@@ -29,5 +29,3 @@ class Product {
         this.amount = amount;
     }
 }
-
-// The Cart class represents a shopping cart.
