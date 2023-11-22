@@ -1,16 +1,15 @@
 public class VehicleRegistry {
     private static VehicleRegistry instance;
+    public String owner;
 
-    private VehicleRegistry() {
-        // Private constructor to prevent instantiation
+    private VehicleRegistry(String owner) {
+        this.owner = owner;
     }
 
     public static VehicleRegistry getInstance() {
         if (instance == null) {
-            instance = new VehicleRegistry();
+            instance = new VehicleRegistry("Satrio");
         }
         return instance;
     }
-
-    // Other methods related to vehicle registry
 }
